@@ -1,0 +1,15 @@
+{
+  "name": "product2022",
+  "version": "1.0.0",
+  "description": "",
+  "main": "product2022.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
+}
