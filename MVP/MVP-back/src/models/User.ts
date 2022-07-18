@@ -33,7 +33,7 @@ schema.methods.generateAuthToken = async function (caducity: number | string) {
   const user = this
   const token = jwt.sign(
     { id: user._id },
-    process.env.SECRET || "",
+    process.env.SECRET || "secret",
     { expiresIn: caducity }
   )
   return token
@@ -56,7 +56,7 @@ schema.statics.findByCredentials = async (name, password) => {
 schema.statics.findByToken = async (token) => {
   const verified = jwt.verify(
     token,
-    process.env.SECRET || ""
+    process.env.SECRET || "secret"
   ) as { id: string }
   if (!verified) {
     return null
