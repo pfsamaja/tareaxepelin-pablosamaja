@@ -6,7 +6,7 @@ Para inicializar el MVP se debe abrir la carpeta de MVP-back, instalar las depen
 
 Para el front, se debe abrir la carpeta de mvp-front en otra terminal, nuevamente instalar las dependencias de Node con npm i (estas pueden demorar un poquito mas) y correr npm run start. 
 
-Se encontraran en el login, el cual se puede utilizar las credenciales indicadas anteriormente y luego se debe ingresar el ID de alguna spreadsheet que cuente con permisos publicos para acceder. Eso traera un listado con la tabla como se exigia en la tarea y te permite editar las tasas y gatillar el correo solicitado. 
+Se encontraran en el login, el cual se puede utilizar las credenciales indicadas anteriormente y luego se debe ingresar el ID de alguna spreadsheet que cuente con permisos publicos para acceder (si se ingresa un ID no valido, el programa se devuelve al login). Eso traera un listado con la tabla como se exigia en la tarea y te permite editar las tasas y gatillar el correo solicitado. 
 
 
 
